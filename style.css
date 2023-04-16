@@ -1,0 +1,38 @@
+.overall {
+    max-width: 1496px;
+}
+
+.foto1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.foto2 img {
+    top: -200px;
+    left: 650px;
+    border-radius: 50%;
+    width: 12%;
+    height: 170px;
+    position: relative;
+    animation-name: ball;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes ball {
+    0% {
+        left: 650px;
+        top: -200px;
+    }
+
+    50% {
+        left: 650px;
+        top: -300px;
+    }
+
+    100% {
+        left: 650px;
+        top: -200px;
+    }
+}
